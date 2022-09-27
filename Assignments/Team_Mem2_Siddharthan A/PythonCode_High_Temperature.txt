@@ -1,0 +1,12 @@
+import random
+n=random.randint(0,50)
+m=random.randint(0,50)
+print("Temperature in celsius:",n)
+print("Humidity in percentage:",m)
+#thershold condition for temperature and humidity
+# Normal Room temperature is between 20 to 25 deg celsius
+# Normal Humidity level 30% to 50%
+thershold_temp=30
+thershold_hum=50
+if n>thershold_temp or m>thershold_hum:
+    print("Alarm:High Temperature and Humidity")
