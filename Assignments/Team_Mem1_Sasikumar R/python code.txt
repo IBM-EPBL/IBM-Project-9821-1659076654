@@ -1,0 +1,11 @@
+import random
+temp=random.uniform(0,50)
+hum=random.randint(0,50)
+print("Temperature:",temp)
+print("Humidity:",hum)
+thersholdT=50
+thersholdH=50
+if temp>thersholdT and hum>thersholdH:
+    print("High Temperature ")
+
+
